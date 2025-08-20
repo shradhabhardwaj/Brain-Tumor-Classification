@@ -1,4 +1,4 @@
-```markdown
+
 # 🧠 Brain Tumor Classification using Deep Learning
 
 An advanced **medical image classification system** that leverages **Transfer Learning** to accurately detect and classify brain tumors from MRI scans using state-of-the-art
@@ -236,5 +236,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ for Medical AI Research**
 
 *Advancing healthcare through intelligent image analysis*
-```
 
