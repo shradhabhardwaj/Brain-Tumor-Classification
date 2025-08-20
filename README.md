@@ -124,7 +124,7 @@ pip install pillow scikit-learn matplotlib seaborn numpy
 ### Usage
 ```
 # Load and run the classification model
-python BrainTumorClassification.ipynb
+python BrainTumorClassification.py
 
 # The model will:
 # 1. Load and preprocess the dataset
@@ -140,7 +140,7 @@ python BrainTumorClassification.ipynb
 ### 🎯 Training Configuration
 - **Batch Size**: 20 images
 - **Epochs**: 5
-- **Learning Rate**: 0.0001
+- **Learning Rate**: 0.001
 - **Optimizer**: Adam
 - **Loss Function**: Sparse Categorical Crossentropy
 
@@ -155,23 +155,19 @@ python BrainTumorClassification.ipynb
 
 ### 1. **Smart Data Handling**
 ```
-# Efficient batch data generation
-def data_gen(paths, labels, batch_size=12, epochs=1):
-    # Yields batches with augmented images and encoded labels
+# Efficient batch data generation. Yields batches with augmented images and encoded labels
 ```
 
 ### 2. **Advanced Image Augmentation**
 ```
-# Dynamic image enhancement
-def augment_image(image):
-    # Brightness and contrast randomization
-    # Pixel normalization for optimal training
+# Dynamic image enhancement:
+# Brightness and contrast randomization
+# Pixel normalization for optimal training
 ```
 
 ### 3. **Transfer Learning Implementation**
 ```
 # Strategic layer freezing and fine-tuning
-base_model = VGG16(weights='imagenet', include_top=False)
 # Selective layer unfreezing for domain adaptation
 ```
 
@@ -206,7 +202,6 @@ The project includes comprehensive visualization features:
 - [ ] **Multi-Modal Input**: Integration with patient metadata
 - [ ] **Explainable AI**: Grad-CAM visualization for decision interpretation
 - [ ] **Model Ensemble**: Combining multiple architectures
-- [ ] **Real-time Inference**: Web application deployment
 - [ ] **Advanced Augmentation**: 3D transformations and elastic deformations
 
 ---
